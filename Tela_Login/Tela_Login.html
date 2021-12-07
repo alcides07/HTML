@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang = "pt-br"> 
+    <head>
+        <meta charset = "UTF-8">
+        <title> The Five Players - Login </title>
+        <link rel = "stylesheet" href = "Css_Login.css">
+        <link rel = "sortcut icon" href = "Icon_Navegador.png" type = "image/x-icon"/>
+        <script src = "../saudacao.js"></script>
+        <style> 
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap'); /* Fonte Roboto Bold */
+            @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap'); /* Fonte Passion One Bold */
+            @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+        </style>
+    </head>
+
+    <body>              
+      
+        <main> 
+            <figure> <a href = "Tela_Login.html"> <img src = "Logo.png" alt = "Logo da Empresa" id = "Logo"> </a> </figure>
+            <form action = "../Pagina_Inicial/Pagina_Inicial.html" method = "POST" id = "formulario">
+                <section id = "tela_login">  
+                    <header>
+                        <p> <img src = "icon_person.png" alt = "Imagem de um ícone de uma pessoa genérica"> LOGIN </p>
+                    </header>
+
+                    <body>    
+                        <h2> 
+                        <label for = "usuario"> Usuário </label> 
+                            <br>
+                            <input type = "text" required placeholder = "Digite seu nome de usuário" size = "40" minlength = "4" maxlength = "30" class = "itens" id = "usuario"> 
+                        </h2>
+
+                        <h2>
+                            <label for = "usuario"> Senha </label> 
+                            <br>
+                            <input type = "password" required placeholder = "Digite sua senha" size = "40" minlength = "6" maxlength = "30" class = "itens"> 
+                        </h2>
+
+                        <h2>
+                            <input type = "checkbox" id = "caixinha_conectado" class = "caixinha">
+                            <label for = "caixinha_conectado" id = "logado"> Mantenha-me conectado </label >
+                        </h2>
+
+                        <input type = "submit" size = "90" value = "Fazer login" id = "botao_logar">
+                    </body>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
