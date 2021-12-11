@@ -17,6 +17,28 @@ body{
     background-size: 1035px;
 }
 
+#botao_idioma{
+    width: 66.56px;
+    height: 46.54px;
+    background-color: transparent;
+    margin-left: 15em;
+    margin-top: 0.5em;
+    border-radius: 3px;
+    border: none;
+    position: fixed;
+}
+
+#simbolo_US{
+    width: 66.56px;
+    height: 46.54px;
+    margin-top: -0.9em;
+    margin-left: -3.5em;
+}
+
+#simbolo_US:hover{
+    cursor: pointer;
+}
+
 p{
     text-align: center;
     font-family: 'Passion One', cursive;

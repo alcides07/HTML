@@ -14,6 +14,28 @@ header{
     z-index: 1;
 }
 
+#botao_idioma{
+    width: 51.2px;
+    height: 40px;
+    background-color: transparent;
+    margin-left: 88em;
+    margin-top: -4.9em;
+    border-radius: 3px;
+    border: none;
+    position: fixed;
+}
+
+#simbolo_US{
+    width: 51.2px;
+    height: 35.8px;
+    margin-top: -0.9em;
+    margin-left: -3.5em;
+}
+
+#simbolo_US:hover{
+    cursor: pointer;
+}
+
 #logo{
     padding-left: 5em;
     padding-top: 0.8em;
@@ -79,7 +101,7 @@ form{
     width: 75px;
     height: 63px;
     background-color: rgb(223, 67, 26);
-    margin-left: 72em;
+    margin-left: 71em;
     margin-top: -4.6em;
     border-radius: 3px;
     border: none;
@@ -111,7 +133,7 @@ form{
     width: 78px;
     height: 63px;
     background-color: rgb(223, 67, 26);
-    margin-left: 82em;
+    margin-left: 79em;
     margin-top: -4.6em;
     border-radius: 3px;
     border: none;
