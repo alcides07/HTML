@@ -1,0 +1,125 @@
+body{
+    background-image: url("Background_Login.jpg");
+    background-repeat: no-repeat;
+    background-size: 1370px;
+}
+
+#tela_login{
+    width: 570px;
+    height: 580px;
+    background-color: rgb(154, 172, 189);
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 10px groove rgba(167, 64, 45, 1);
+    margin-top: 47px;
+    background-image: url("Fundo_login.png");
+    background-repeat: no-repeat;
+    background-size: 1035px;
+}
+
+#botao_idioma{
+    width: 66.56px;
+    height: 46.54px;
+    background-color: transparent;
+    margin-left: 15em;
+    margin-top: 0.5em;
+    border-radius: 3px;
+    border: none;
+    position: fixed;
+}
+
+#simbolo_BR{
+    width: 68px;
+    height: 70px;
+    margin-top: -1.7em;
+    margin-left: -3.5em;
+}
+
+#simbolo_BR:hover{
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+    font-family: 'Passion One', cursive;
+    font-size: 64px;
+    padding-top: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+form{
+    margin-top: -55px;
+    width: 700px;
+    margin-left: 20.3em;
+    margin-top: -11.6em;
+}
+
+h2{
+    padding-left: 85px;
+    font-family: 'Passion One', cursive;
+    font-size: 31px;
+}
+
+.itens{
+    padding-left: 0.7em;
+    border: black solid 2px;
+    border-radius: 5px;
+    height: 45px;
+    font-size: 16px;
+    background-color: rgb(248, 243, 243, 1);
+    margin-top: 0.6em;
+}
+
+.itens:focus{
+    outline: 0;
+    border: solid rgb(223, 67, 26) 2px;
+}
+
+#logado{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 25px; 
+} 
+
+#caixinha_conectado{
+    width: 20px;
+    height: 20px;
+    margin-left: -1px;
+    position: absolute;
+    margin-top: 6px;  
+}
+
+.caixinha:checked{
+    appearance: none;
+    background-color: rgb(223, 67, 26);
+    background-position: center;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    border-radius: 2px;
+    border: solid 0.5px black;
+    margin-top: 6px;  
+    position: absolute;
+}
+
+#botao_logar{
+    margin-left: 85px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif; /* Fonte Roboto Regular */
+    color: white;
+    background-color: rgb(30, 106, 38);
+    border: 2px solid black;  
+    width: 370px;
+    border-radius: 5px;
+    height: 45px;
+}
+
+#botao_logar:hover{
+    cursor: pointer;
+    background-color: rgb(206, 44, 13);
+}
+
+#Logo{
+  padding-top: 0.6em;
+  margin-left: -0.5em;
+}

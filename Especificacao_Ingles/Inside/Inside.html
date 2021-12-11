@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "eng-US"> 
+    <head>
+        <meta charset = "UTF-8">
+        <title> Inside - PS4 </title>
+        <link rel = "stylesheet" href = "../Css_Especificação.css">
+        <link rel = "sortcut icon" href = "../Imagens_Utilizadas/Icon_Navegador.png" type = "image/x-icon"/>
+        <style> 
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap'); /* Fonte Roboto Bold */
+            @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap'); /* Fonte Passion One Bold */
+            @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap'); /* Fonte Passion One */
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <a href = "../../Pagina_Inicial/Pagina_Inicial.html">  <img src = "../Imagens_Utilizadas/Logo_Página.png" alt = "Logo da Empresa" id = "logo"> </a>
+            <form action = "">
+                <label for = "caixa_pesquisa"></label>
+                <input type = "text" placeholder = "Digite o que você procura" id = "caixa_pesquisa" maxlength = "30">
+            </form>
+
+            <button id = "botao_busca">  
+                <img src = "../Imagens_Utilizadas/Simbolo_Pesquisar.png" alt = "Simbolo de pesquisa" id = "simbolo_pesquisa">
+            </button>
+
+            <button id = "botao_suporte">  
+               <figure> <img src = "../Imagens_Utilizadas/Simbolo_Suporte.png" alt = "Simbolo de suporte ao usuário" id = "simbolo_suporte"> </figure>
+                <span id = "nome_suporte"> SUPORTE </span>
+            </button>
+
+            <button id = "botao_idioma">
+                <a href = "../../Especificacao/Inside/Inside.html"> 
+                    <figure>  <img src = "../Imagens_Utilizadas/BR.png" alt = "Bandeira dos Brasil" id = "simbolo_BR">  </figure> 
+                </a>
+            </button>
+
+            <button id = "botao_carrinho">  
+                <figure> <img src = "../Imagens_Utilizadas/Simbolo_Carrinho.png" alt = "Símbolo de carrinho de compras" id = "simbolo_carrinho"> </figure> 
+                <span id = "nome_carrinho"> CARRINHO </span>
+            </button>
+
+            <a href = "../../Tela_Login/Tela_Login.html">
+                <figure> <img src = "../Imagens_Utilizadas/Simbolo_Logout.png" alt = "Símbolo de sair da página" id = "simbolo_logout"></figure> 
+                <span id = "nome_sair"> SAIR </span>
+            </a>   
+
+        </header>
+
+        <main> 
+            <section class = "jogos_especificados"> 
+                <figure> <img src = "Inside.jpg" alt = "Capa do Jogo Inside"> </figure>
+                <p class = "descricoes_jogos">
+                    <span class = "nome_jogo"> INSIDE - </span>
+                    <span class = "plataforma"> PS4 MÍDIA DIGITAL </span> <br>
+                    <span class = "prazo_aluguel"> ALUGUEL 2 DIAS - PT-BR </span>
+                </p>
+                <a href = "../../Pagina_Inicial/Pagina_Inicial.html" id = "link_tag">  <span class = "tag_jogo" > TAG: <span id = "plataforma"> Jogos PS4 </span> </span> </a>
+                <br> <br> <br>
+                <span id = "preco"> R$ 1,99 </span>
+
+                <section id = "seção_quantidade_aluguel">
+                    <label for = "quantidade_aluguel">
+                        <span id = "nome_quantidade"> QTDE: </span> 
+                        <input type = "number" id = "quantidade_aluguel" min = "1" value = "1"> 
+                    </label>
+                </section>
+
+                <section id = "seção_botao_alugar"> 
+                    <button id = "botao_alugar"> ALUGAR
+                        <figure> <img id = "simbolo_carrinho_aluguel" src = "../Imagens_Utilizadas/Simbolo_Carrinho.png" alt = "Símbolo de carrinho de compras"> </figure>
+                    </button>
+                    <br> 
+                    <span id = "nome_status"> Status: <span id = "status"> disponível </span> </span>
+                </section>
+
+                <section id = "seção_lista_desejos">
+                    <button id = "botao_lista_desejos"> Lista de Desejos 
+                        <figure id = "conteiner_coracao"> <img id = "simbolo_coracao" src = "../Imagens_Utilizadas/Coracao_Lista_Desejos.jpg" alt = "Símbolo de coração como lista de desejos"> </figure>
+                    </button>
+                </section>
+
+                <section class = "rodape_foto"> 
+                    <a href = "https://www.youtube.com/watch?v=y0uDLEG8Xao" target = "_blank">
+                    <figure> <img src = "../Imagens_Utilizadas/Youtube_Icone.jpg" alt = "Logomarca do Youtube" id = "icone_Youtube"> </figure>
+                    </a>
+                    <a href = "https://www.youtube.com/watch?v=y0uDLEG8Xao" target="_blank">  <span id = "texto_trailer"> Assistir trailer do game </span> </a>
+                </section>
+
+        </main>
+
+        <footer id = "direitos_reservados">
+           <p> The Five Players - CNPJ: XX.XX.XXX/XXX-XX © Todos os direitos reservados. 2021 </p> 
+        </footer>
+    </body>
+
+</html>
